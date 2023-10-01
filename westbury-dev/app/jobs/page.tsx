@@ -1,10 +1,14 @@
 import { Testimonial } from "./components/testimonial"
+import { Lewis } from "./constants/lewis"
 
 export default function Jobs() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div>hi!</div>
-      <Testimonial quote="Austin is Goated" name="Lewis Rodiguez" title="Senior Software Engineer" companyURI="https://tailwindui.com/img/logos/workcation-logo-indigo-600.svg"/>
+    <main>
+      <section className="flex flex-col min-h-screen items-center p-24">
+        <Testimonial quote={Lewis.quote} name="Lewis Rodiguez" title="Senior Software Engineer" companyURI="/machattle.png" personURI="/lewis.jpg"/>
+        <Testimonial quote={Lewis.quote} name="Lewis Rodiguez" title="Senior Software Engineer" companyURI="/machattle.png" personURI="/lewis.jpg"/>
+        <Testimonial quote={Lewis.quote} name="Lewis Rodiguez" title="Senior Software Engineer" companyURI="/machattle.png" personURI="/lewis.jpg"/>
+      </section>
     </main>
   )
 }
