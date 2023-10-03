@@ -2,8 +2,6 @@
 
 import { Disclosure } from "@headlessui/react";
 import { BellIcon } from "@heroicons/react/24/outline";
-import { Testimonial } from "../jobs/components/Testimonial";
-import { Lewis } from "../jobs/constants/lewis";
 
 const navigation = [
   { name: "Home", href: "#", current: true },
