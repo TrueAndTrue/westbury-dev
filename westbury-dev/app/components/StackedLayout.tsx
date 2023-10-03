@@ -5,7 +5,7 @@ import { BellIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
   { name: "Home", href: "#", current: true },
-  { name: "Professional Experience", href: "#", current: false },
+  { name: "Professional Experience", href: "jobs", current: false },
   { name: "Projects", href: "#", current: false },
   { name: "Contact", href: "#", current: false },
 ];
