@@ -1,6 +1,6 @@
 import { StackedLayout } from "./components/StackedLayout";
 import { Testimonial } from "./jobs/components/Testimonial";
-import { Lewis, Nameless } from "./jobs/constants/lewis";
+import { Lewis, Nameless } from "./jobs/constants/people";
 
 export default function Home() {
   return (

@@ -4,5 +4,5 @@ export const Lewis = {
 };
 
 export const Nameless = {
-  quote: "Austin is the best engineer of all time. Hands down no competition whatsoever.",
+  quote: "Austin is the best engineer of all time. Hands down no competition whatsoever. He is the best. I love him. He is my hero.",
 }
