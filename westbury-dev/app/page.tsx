@@ -13,21 +13,21 @@ export default function Home() {
             quote={Lewis.quote}
             name="Lewis Rodiguez"
             title="Senior Software Engineer"
-            companyURI="/Machattle.png"
+            companyURI="/machattle.png"
             personURI="/lewis.jpg"
           />
           <Testimonial
             quote={Lewis.quote}
             name="Lewis Rodiguez"
             title="Senior Software Engineer"
-            companyURI="/Machattle.png"
+            companyURI="/machattle.png"
             personURI="/lewis.jpg"
           />
           <Testimonial
             quote={Nameless.quote}
             name="You (after working with me)"
             title="CCG (Chief Cool Guy)"
-            companyURI="/Machattle.png"
+            companyURI="/machattle.png"
             personURI="/pfp.jpg"
           />
         </section>
