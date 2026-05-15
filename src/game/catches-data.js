@@ -24,7 +24,7 @@ export const CATCHES = [
           { role: 'Senior Software Engineer', span: 'Jun 2025 to present', current: true },
           { role: 'Software Engineer',        span: 'Nov 2022 to Jun 2025' },
         ],
-        summary: "Property-management platform for short-term rental and hospitality operators. Reservations, guest comms, automation, payouts. The plumbing that keeps a host's calendar from catching fire at 2am.",
+        summary: "Property-management platform for short-term rental and hospitality operators. Reservations, properties, automation, financials. The plumbing that keeps a host's calendar from catching fire at 2am.",
         bullets: [
           "Architected an event-driven webhook system processing millions of events daily on AWS Lambda, SQS, and EventBridge.",
           "Cut infrastructure costs 40%+ by tuning serverless compute, queue throughput, and Postgres query plans.",

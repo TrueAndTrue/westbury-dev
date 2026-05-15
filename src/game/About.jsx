@@ -277,7 +277,7 @@ export default function About({ open, onClose, standalone = false }) {
               { role: 'Senior Software Engineer', span: 'Jun 2025 — present', current: true },
               { role: 'Software Engineer',        span: 'Nov 2022 — Jun 2025' },
             ]}
-            summary="Property-management platform for short-term rentals. Reservations, guest comms, automation, payouts — the plumbing that keeps a host's calendar from catching fire at 2am."
+            summary="Property-management platform for short-term rentals. Reservations, properties, automation, financials — the plumbing that keeps a host's calendar from catching fire at 2am."
             bullets={[
               "Architected an event-driven webhook system processing millions of events daily on AWS Lambda, SQS, and EventBridge.",
               "Cut infrastructure costs 40%+ by tuning serverless compute, queue throughput, and Postgres query plans.",
