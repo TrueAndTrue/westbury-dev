@@ -26,7 +26,7 @@ export default function Hud({ phase, caughtCount, totalCount, onOpenLog, onSkip,
         className="hud-skip"
         onClick={onSkip}
         title="Skip the game and read the about page">
-        skip the game · about me →
+        SKIP FISHING
       </button>
 
       <div className={`hud-prompt ${showBiteCTA ? 'is-bite' : ''}`}>
