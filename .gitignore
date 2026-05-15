@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.vite/
+.vercel/
+
+# Design reference — kept locally, not shipped
+Portfolio 2/
