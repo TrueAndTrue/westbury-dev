@@ -283,7 +283,7 @@ export default function About({ open, onClose, standalone = false }) {
               "Cut infrastructure costs 40%+ by tuning serverless compute, queue throughput, and Postgres query plans.",
               "Designed the Node.js backend and Postgres schemas with Prisma — type-safe data access end to end.",
               "Drove team-wide adoption of Claude Code. Onboarded every engineer, set guardrails, measured the velocity lift.",
-              "Lead architecture and technical direction. Mentor through code review, pairing, and design docs.",
+              "Led architecture and technical direction. Mentored through code review, pairing, and design docs.",
             ]}
           />
           <JobCard

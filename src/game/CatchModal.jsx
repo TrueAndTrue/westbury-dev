@@ -96,7 +96,13 @@ export default function CatchModal({ catchObj, onClose, onNext, hasNext }) {
 
         <div className="modal-body">
           <div className="modal-eyebrow">{catchObj.eyebrow}</div>
-          <h2 className="modal-title">{catchObj.title}</h2>
+          <h2 className="modal-title">
+            {catchObj.titleHref ? (
+              <a href={catchObj.titleHref} target="_blank" rel="noreferrer" className="modal-link">
+                {catchObj.title}<span className="modal-link-arrow" aria-hidden="true">↗</span>
+              </a>
+            ) : catchObj.title}
+          </h2>
 
           {catchObj.body && catchObj.body.map((p, i) => (
             <p key={i} className="modal-para">{p}</p>

@@ -30,7 +30,7 @@ export const CATCHES = [
           "Cut infrastructure costs 40%+ by tuning serverless compute, queue throughput, and Postgres query plans.",
           "Designed the Node.js backend and Postgres schemas with Prisma, for type-safe data access end to end.",
           "Drove team-wide adoption of Claude Code. Onboarded every engineer, set guardrails, measured the velocity lift.",
-          "Lead architecture and technical direction. Mentor through code review, pairing, and design docs.",
+          "Led architecture and technical direction. Mentored through code review, pairing, and design docs.",
         ],
         stack: 'Node.js · TypeScript · Postgres · Prisma · AWS',
       },
@@ -59,6 +59,7 @@ export const CATCHES = [
     rarity: 'uncommon',
     slot: { x: 22, y: 118 },
     title: 'ANHLS: NHL analytics',
+    titleHref: 'https://anhls.com',
     eyebrow: 'Side project · ongoing',
     body: [
       "I love hockey almost as much as I love fishing, and mainstream stats sites all show me the same boring leaderboards. ANHLS (advanced NHL stats) queries 6M+ rows of play-by-play data so I can answer the weird questions instead. For example, how many times a single skater has shot on (or scored against) a specific goalie across their careers, or pulling up players all the way back to the 1910s.",
