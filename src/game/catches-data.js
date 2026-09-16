@@ -5,7 +5,7 @@ export const CATCHES = [
     id: 'experience',
     kind: 'experience',
     shortLabel: 'Experience',
-    subLabel: '4+ years · 2 companies',
+    subLabel: '5+ years · 4 companies',
     icon: '⚙',
     glow: '#ffe890',
     rarity: 'common',
@@ -13,15 +13,39 @@ export const CATCHES = [
     title: "Where I've worked",
     eyebrow: 'The professional history',
     body: [
-      "Two stops so far. The throughline is event-driven systems, type-safe data access, and small high-trust teams.",
+      "Four stops so far, two of them running at once right now. The throughline is event-driven systems, data pipelines that run without a human watching, and small high-trust teams.",
     ],
     jobs: [
+      {
+        company: 'The Credit Pros',
+        companyHref: 'https://thecreditpros.com',
+        location: 'United States · remote',
+        positions: [
+          { role: 'Senior Growth Engineer', span: 'Jul 2026 to present', current: true },
+        ],
+        summary: "Scaling growth to the moon with engineering and AI philosophies.",
+      },
+      {
+        company: 'Virlo',
+        companyHref: 'https://virlo.ai',
+        location: 'New York, USA · remote · part-time contract',
+        positions: [
+          { role: 'Principal Software Engineer', span: 'Apr 2025 to present', current: true },
+        ],
+        summary: "Social listening for TikTok, Reels, and Shorts. Customers include Harvard, Telegram, and Picsart. When I joined, finding a niche meant a human scrolling a feed for hours.",
+        bullets: [
+          "Within one month of joining, shipped a fully autonomous pipeline that collects and analyzes short-form video. It replaced the manual scrolling entirely.",
+          "Invented custom niches, now the flagship product. Businesses define a niche tailored to them and the system tracks it. Engagement and retention jumped once it launched.",
+          "Helped take the company past $20k MRR and through a pivot from B2C to B2B.",
+        ],
+        stack: 'TypeScript · scraping at massive scale · video and image processing with AI',
+      },
       {
         company: 'Live Summer',
         companyHref: 'https://summeros.com',
         location: 'New York, USA · remote',
         positions: [
-          { role: 'Senior Software Engineer', span: 'Jun 2025 to present', current: true },
+          { role: 'Senior Software Engineer', span: 'Jun 2025 to May 2026' },
           { role: 'Software Engineer',        span: 'Nov 2022 to Jun 2025' },
         ],
         summary: "Property-management platform for short-term rental and hospitality operators. Reservations, properties, automation, financials. The plumbing that keeps a host's calendar from catching fire at 2am.",
@@ -120,7 +144,7 @@ export const CATCHES = [
     title: "Hi, I'm Austin.",
     eyebrow: 'Ontario, Canada',
     body: [
-      "Senior Software Engineer, 5+ years building distributed systems that don't catch fire at 2am. Scoping the architecture for a hard problem is one of my favorite parts of the job. I care as much about the business impact of what we ship as the craft that goes into shipping it.",
+      "Senior Growth Engineer at The Credit Pros by day, Principal Engineer at Virlo on the side. 5+ years building distributed systems that don't catch fire at 2am. Scoping the architecture for a hard problem is one of my favorite parts of the job. I care as much about the business impact of what we ship as the craft that goes into shipping it.",
       "Product-minded. I'd rather kill a feature than ship something that confuses the user. I run AI-augmented workflows day-to-day (Claude Code is in my hotkeys), and I've put real work into helping teammates do the same without writing slop.",
       "Off the keyboard: I fish whenever the lake lets me. I game (currently rotating: Sid Meier's Civ 7, Terraria, and Slay the Spire 2).",
     ],

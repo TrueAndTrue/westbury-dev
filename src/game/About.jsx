@@ -261,7 +261,7 @@ export default function About({ open, onClose, standalone = false }) {
             Hi, I'm Austin.
           </h1>
           <p className="zine-lede">
-            Senior Software Engineer based in Ontario, Canada. 5+ years building distributed systems that don't catch fire at 2am, and the occasional NHL stats database for fun.
+            Senior Growth Engineer at The Credit Pros, Principal Engineer at Virlo on the side, based in Ontario, Canada. 5+ years building distributed systems that don't catch fire at 2am, and the occasional NHL stats database for fun.
           </p>
           <p className="zine-lede zine-lede-secondary">
             Deeply product-minded, I care as much about the business impact of what we ship as the craft that goes into shipping it. I'll happily kill a feature when it isn't pulling its weight. Scoping the architecture for a hard problem is one of my favorite parts of the job. AI-augmented dev workflows are deep in my hotkeys these days, and I've put real work into helping teammates do the same without writing slop.
@@ -270,11 +270,32 @@ export default function About({ open, onClose, standalone = false }) {
 
         <ZineSection number="01" eyebrow="The work" title="What I'm shipping" id="work">
           <JobCard
+            company="The Credit Pros"
+            companyHref="https://thecreditpros.com"
+            role="Senior Growth Engineer"
+            span="Jul 2026 — present"
+            location="United States · remote"
+            summary="Scaling growth to the moon with engineering and AI philosophies."
+          />
+          <JobCard
+            company="Virlo"
+            companyHref="https://virlo.ai"
+            role="Principal Software Engineer · part-time contract"
+            span="Apr 2025 — present"
+            location="New York, USA · remote"
+            summary="Social listening for TikTok, Reels, and Shorts. Customers include Harvard, Telegram, and Picsart. When I joined, finding a niche meant a human scrolling a feed for hours."
+            bullets={[
+              "Within one month of joining, shipped a fully autonomous pipeline that collects and analyzes short-form video. It replaced the manual scrolling entirely.",
+              "Invented custom niches, now the flagship product. Businesses define a niche tailored to them and the system tracks it. Engagement and retention jumped once it launched.",
+              "Helped take the company past $20k MRR and through a pivot from B2C to B2B.",
+            ]}
+          />
+          <JobCard
             company="Live Summer"
             companyHref="https://summeros.com"
             location="New York, USA · remote"
             positions={[
-              { role: 'Senior Software Engineer', span: 'Jun 2025 — present', current: true },
+              { role: 'Senior Software Engineer', span: 'Jun 2025 — May 2026' },
               { role: 'Software Engineer',        span: 'Nov 2022 — Jun 2025' },
             ]}
             summary="Property-management platform for short-term rentals. Reservations, properties, automation, financials — the plumbing that keeps a host's calendar from catching fire at 2am."
